@@ -1,0 +1,54 @@
+.nx/installation
+.nx/cache
+.nx/workspace-data
+.angular
+
+vite.config.*.timestamp*
+# Generated output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/nx-cache
+/.angular/cache
+
+# Node dependencies
+/node_modules
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Environment files
+.env
+.env.*.local
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous
+/coverage
+/.history
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.lock
+*.tmp
+
+# Build artifacts
+/libs/**/*.d.ts
+/libs/**/*.js
