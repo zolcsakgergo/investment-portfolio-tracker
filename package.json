@@ -71,6 +71,7 @@
     "express": "^4.21.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.8.0",
+    "three": "^0.170.0",
     "zone.js": "~0.14.3"
   }
 }
